@@ -1,0 +1,9 @@
+streamlit
+streamlit_chat
+langchain
+openai
+wikipedia
+chromadb
+tiktoken
+pypdf
+unstructured[local-inference]
