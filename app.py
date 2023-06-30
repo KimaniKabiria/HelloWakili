@@ -60,8 +60,8 @@ def get_text_chunks(text):
 
 def get_vectorstore():
     
-    # embeddings = OpenAIEmbeddings()
-    embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
+    embeddings = OpenAIEmbeddings()
+    # embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-base")
 
     # Load documents into vector database aka ChromaDB
     documents = get_documents()
