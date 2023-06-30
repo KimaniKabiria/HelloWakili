@@ -7,3 +7,7 @@ chromadb
 tiktoken
 pypdf
 unstructured[local-inference]
+python-dotenv
+huggingface_hub
+InstructorEmbedding
+sentence-transformers
